@@ -1,0 +1,5 @@
+1.
+select users.id, orders.user_id, users.name from users join orders where users.id = orders.user_id;
+2.
+select p.name, p.catalog_id, c.id from products as p join catalogs as c where p.catalog_id = c.id;
+
